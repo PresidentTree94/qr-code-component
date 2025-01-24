@@ -8,7 +8,7 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 ### Screenshot
 
-![Screenshot of desktop version](images/Screenshot.jpg)
+![Screenshot of desktop version](images/Screenshot.jpeg)
 
 ### Links
 
