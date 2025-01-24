@@ -8,7 +8,7 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 ### Screenshot
 
-![Screenshot of desktop version](https://raw.githubusercontent.com/PresidentTree94/qr-code-component/refs/heads/main/Screenshot.jpeg)
+![Screenshot of desktop version](images/Screenshot.jpg)
 
 ### Links
 
