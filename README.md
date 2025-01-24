@@ -12,8 +12,8 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [GitHub Page](https://your-live-site-url.com](https://presidenttree94.github.io/qr-code-component/)
+- Solution URL: [Frontend Master Solution Page](https://your-solution-url.com)
+- Live Site URL: [GitHub Page](https://presidenttree94.github.io/qr-code-component/)
 
 ## Author
 
