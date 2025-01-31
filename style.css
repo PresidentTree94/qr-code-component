@@ -1,64 +1,79 @@
-html, body, main {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --aliceBlue: rgb(213, 225, 239);
+  --white: rgb(255, 255, 255);
+  --slateGray: rgb(104, 119, 141);
+  --delftBlue: rgb(31, 49, 79);
+}
+
+html, body {
   height: 100%;
 }
 
-html {
-  font-size: 15px;
-  font-family: "Outfit", serif;
-}
-
 body {
-  margin: 0;
-  background-color: rgb(213, 225, 239);
-  color: rgb(31, 49, 79);
+  font-family: "Outfit", serif;
+  font-size: 0.9375rem; /*15px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--aliceBlue);
+  color: var(--delftBlue);
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-width: 20rem; /*320px*/
+  width: 20rem; /*320px*/
   text-align: center;
 }
 
 section {
-  background-color: rgb(255, 255, 255);
-  width: 320px;
-  height: 500px;
-  padding: 16px 16px 40px;
-  border-radius: 20px;
-  box-sizing: border-box;
+  background-color: var(--white);
+  padding: 1rem 1rem 2.5rem; /*40px*/
+  border-radius: 1.25rem; /*20px*/
   display: flex;
   flex-direction: column;
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1.5625rem 1.5625rem rgba(0, 0, 0, 0.05); /*25px*/
 }
 
 img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem; /*10px*/
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.025);
 }
 
 article {
-  margin: 0 16px;
+  margin: 1.5rem 1rem 0; /*24px*/
 }
 
 h2 {
-  margin: 24px 0 16px;
+  margin-bottom: 1rem;
   line-height: 120%;
 }
 
-article p, a {
-  color: rgb(104, 119, 141);
+article p {
+  color: var(--slateGray);
   line-height: 140%;
 }
 
-.attribution {
-  font-size: 11px;
+footer {
+  font-size: 0.6875rem; /*11px*/
+  margin: 0.6875rem 1rem 0; /*11px*/
+  text-wrap: pretty;
 }
 
 a {
   text-decoration: none;
+  color: var(--slateGray);
 }
 
 a:hover {
