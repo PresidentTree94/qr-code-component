@@ -12,7 +12,7 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 ### Links
 
-- Solution URL: [Frontend Master Solution Page](https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW)
 - Live Site URL: [GitHub Page](https://presidenttree94.github.io/qr-code-component/)
 
 ## Author
