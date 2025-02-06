@@ -28,6 +28,7 @@ body {
 main {
   min-width: 20rem; /*320px*/
   width: 20rem; /*320px*/
+  text-align: center;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
 }
@@ -43,7 +44,6 @@ section {
   border-radius: 1.25rem; /*20px*/
   display: flex;
   flex-direction: column;
-  text-align: center;
   box-shadow: 0 1.5625rem 1.5625rem rgba(0, 0, 0, 0.05); /*25px*/
 }
 
@@ -81,6 +81,7 @@ footer {
 a {
   text-decoration: none;
   color: var(--slateGray);
+  font-weight: 600;
 }
 
 a:hover {
