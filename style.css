@@ -13,7 +13,6 @@
 
 html, body {
   min-height: 100%;
-  overflow: auto;
 }
 
 body {
@@ -31,11 +30,11 @@ main {
   width: 20rem; /*320px*/
   text-align: center;
   opacity: 0;
-  animation: fadeUp 1s ease forwards;
+  animation: fadeDown 1s ease forwards;
 }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(100px); }
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-100px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
