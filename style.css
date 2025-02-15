@@ -1,14 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --aliceBlue: rgb(213, 225, 239);
   --white: rgb(255, 255, 255);
   --slateGray: rgb(104, 119, 141);
   --delftBlue: rgb(31, 49, 79);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
