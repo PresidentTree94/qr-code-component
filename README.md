@@ -19,4 +19,4 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 - GitHub Profile: [PresidentTree94](https://github.com/PresidentTree94)
 - Frontend Mentor Profile: [PresidentTree94](https://www.frontendmentor.io/profile/PresidentTree94)
-- Author Website: [PresidentTree94](https://presidenttree94.github.io/project-portfolio/)
+- Author Website: [PresidentTree94 Portfolio](https://presidenttree94.github.io/project-portfolio/)
