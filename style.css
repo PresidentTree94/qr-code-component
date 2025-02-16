@@ -27,7 +27,8 @@ body {
 }
 
 main {
-  width: 20rem; /*320px*/
+  min-width: 20rem; /*320px*/
+  width: 100%;
   text-align: center;
   opacity: 0;
   animation: fadeDown 1s ease forwards;
