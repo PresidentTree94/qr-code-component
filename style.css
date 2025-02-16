@@ -27,7 +27,7 @@ body {
 }
 
 main {
-  min-width: 20rem; /*320px*/
+  max-width: 20rem; /*320px*/
   width: 100%;
   text-align: center;
   opacity: 0;
