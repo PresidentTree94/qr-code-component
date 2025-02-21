@@ -21,7 +21,7 @@ body {
   align-items: center;
   background-color: var(--aliceBlue);
   color: var(--delftBlue);
-  overflow: auto;
+  overflow: hidden;
 }
 
 main {
