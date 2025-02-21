@@ -11,19 +11,17 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100vh; /*Fallback for svh*/
-  height: 100svh;
-  overflow: auto;
-}
-
 body {
   font-family: "Outfit", serif;
   font-size: 0.9375rem; /*15px*/
-  display: grid;
-  place-items: center;
+  min-height: 100vh; /*Fallback for svh*/
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--aliceBlue);
   color: var(--delftBlue);
+  overflow: auto;
 }
 
 main {
