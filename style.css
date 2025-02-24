@@ -24,6 +24,7 @@ body {
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
   margin: 0 auto;
+  padding: 0 var(--mainPadding);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +33,7 @@ body {
 
 main {
   text-align: center;
-  padding: 0 var(--mainPadding);
+  /*padding: 0 var(--mainPadding);*/
   opacity: 0;
   animation: fadeDown 1s ease forwards;
 }
