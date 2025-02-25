@@ -23,7 +23,7 @@ body {
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1rem;
   box-sizing: content-box;
   display: flex;
   justify-content: center;
