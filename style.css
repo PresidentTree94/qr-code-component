@@ -3,7 +3,6 @@
   --white: rgb(255, 255, 255);
   --slateGray: rgb(104, 119, 141);
   --delftBlue: rgb(31, 49, 79);
-  --mainPadding: 1rem;
 }
 
 * {
@@ -20,11 +19,12 @@ body {
 }
 
 .container {
-  max-width: min(100%, calc(20rem + (var(--mainPadding) * 2))); /*320px + 32px padding from main*/
+  max-width: min(100%, 20rem); /*320px*/
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
   margin: 0 auto;
-  padding: 0 var(--mainPadding);
+  padding: 0 1rem;
+  box-sizing: content-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,6 @@ body {
 
 main {
   text-align: center;
-  /*padding: 0 var(--mainPadding);*/
   opacity: 0;
   animation: fadeDown 1s ease forwards;
 }
