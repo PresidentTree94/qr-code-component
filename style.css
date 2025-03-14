@@ -5,6 +5,13 @@
   --delftBlue: rgb(31, 49, 79);
 }
 
+.darkMode {
+  --aliceBlue: rgb(104, 119, 141);
+  --white: rgb(31, 49, 79);
+  --slateGray: rgb(213, 225, 239);
+  --delftBlue: rgb(255, 255, 255);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +34,14 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+#toggle {
+  background-color: var(--slateGray);
+}
+
+svg {
+  fill: var(--white);
 }
 
 main {
