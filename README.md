@@ -5,7 +5,7 @@ This is a solution to the [QR Code Component](https://www.frontendmentor.io/chal
 As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.io/learning-paths) learning pathway, it is the first of four challenges users must complete to finish the unit.
 
 ### Screenshot
-![Screenshot of desktop version](images/screenshot.png)
+![Screenshot of desktop version](images/Screenshot.png)
 
 ### Links
 - Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW)
