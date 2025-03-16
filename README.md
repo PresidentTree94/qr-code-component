@@ -8,7 +8,7 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 ![Screenshot of desktop version](images/screenshot.png)
 
 ### Modifications
-I added Dark Mode to the website. The `dark-mode` folder contains a separate README explaining how it works. The button is located in the top-right corner of the page and scales down slightly when selected. 
+I added Dark Mode to the website. The `alt-mode` folder contains a separate README explaining how it works. The button is located in the top-right corner of the page and scales down slightly when selected.
 
 ### Links
 - Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/qr-code-component-xixkp7hzyW)
