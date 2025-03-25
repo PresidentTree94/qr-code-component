@@ -12,12 +12,6 @@
   --delftBlue: rgb(255, 255, 255);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Outfit", serif;
   font-size: 0.9375rem; /*15px*/
@@ -29,11 +23,7 @@ body {
   max-width: min(100%, 22rem); /*352px*/
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 #toggle {
