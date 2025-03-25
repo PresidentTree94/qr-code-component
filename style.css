@@ -38,12 +38,7 @@ main {
   text-align: center;
   padding: 1rem;
   opacity: 0;
-  animation: fadeDown 1s ease forwards;
-}
-
-@keyframes fadeDown {
-  from { opacity: 0; transform: translateY(-100px); }
-  to { opacity: 1; transform: translateY(0); }
+  animation-name: fadeDown;
 }
 
 section {
@@ -83,18 +78,6 @@ article p {
   line-height: 140%;
 }
 
-footer {
-  font-size: 0.6875rem; /*11px*/
-  margin: 0.6875rem 1rem 0; /*11px*/
-  text-wrap: pretty;
-}
-
 a {
-  text-decoration: none;
   color: var(--slateGray);
-  font-weight: 600;
-}
-
-a:hover {
-  text-decoration: underline;
 }
